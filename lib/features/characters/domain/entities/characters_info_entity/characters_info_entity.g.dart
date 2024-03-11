@@ -11,6 +11,6 @@ CharactersInfoEntity _$CharactersInfoEntityFromJson(
     CharactersInfoEntity(
       count: json['count'] as int? ?? 20,
       pages: json['pages'] as int? ?? 1,
-      next: json['next'] as int? ?? 1,
+      next: json['next'] as int?,
       prev: json['prev'] as int?,
     );
